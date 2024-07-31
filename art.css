@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Navbar */
+
+.container1{
+    max-width: 1100px;
+    margin: 0 10px;
+    padding: 0 30px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #3474e6;
+    height: 40px;
+    flex: 1;
+}
+
+.navbar .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: -20px;
+    color: white;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
+
+/* Navbar End */
+
+/* Header Start*/
+
+.header{
+    background-color: #0151cc;
+    color: #fff;
+    height: 300px;
+    flex: 1;
+}
+
+.header .container2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+    margin-left: 10px;
+}
+
+.header h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 50px;    
+}
+
+.header p{  
+    margin-top: 25px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Header End*/
+
+/* Section 1 block 1 Start*/
+
+.section1{
+    background-color: lightskyblue;
+    height:250px;
+}
+
+.section1 .container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 30px;
+
+}
+
+/*Boxes Start*/
+
+.box0:hover{
+    transform: scale(1.05);
+    transition: all 0.75s ease;
+    cursor: pointer; 
+    border: 3px solid blue;
+    background-color: lightblue;
+}
+
+.box0{
+    background: white;
+    width: 230px;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 1px; 
+}
+
+/*boxes End*/
+
+/*Card 0 start*/
+.card0{
+    background: aqua;
+    width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card0 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p0{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+
+/* Card0 End*/
+
+/*Card1 Start*/
+.card1{
+    background: aqua;
+    width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;    
+}
+
+
+.p1{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 23px;
+}
+/*Card1 End*/ 
+
+/*Card2 Start*/
+.card2{
+    background: aqua;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card2 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p2{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+/*Card2 End*/
+
+/* Section1 block1 End*/
+
+/*Section 2 Start*/
+.section2{
+    width: 100%;
+    background-color: lightskyblue;
+    height: 250px; 
+}
+
+.section2 .container4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 30px; 
+}
+
+/* Box Start*/
+.box1:hover{
+    transform: scale(1.03);
+    transition: all 0.75s ease;
+    cursor: pointer; 
+    border: 3px solid purple;
+    background-color: lightblue;
+}
+
+.box1{
+    width: 230px;
+    height: 230px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 1px;
+}
+/*Box End*/
+
+/*Card3 Start*/
+.card3{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card3 img{
+    width: 230px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p3{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px; 
+}
+/* Card 3 Ends*/
+
+/* Card 4 Start*/
+.card4{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card4 img{
+    width: 230px;
+    height: auto;
+    margin-right: 100px;
+}
+
+
+.p4{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+/* Card 4 Ends*/
+
+/* Card 5 Start*/
+.card5{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.card5 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p5{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;  
+}
+/* Card 5 Ends*/
+/*Section 2 End*/
+
+/* Section 3 Starts*/
+.section3{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 250px;
+}
+
+.section3 .container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 30px;
+}
+
+/* Start of the box2*/
+.box2:hover{
+    transform: scale(1.04);
+    transition: all 0.75s ease;
+    cursor: pointer;
+    background-color: lightblue;
+    border: 3px solid yellow;
+}
+
+.box2{
+    background-color: #fff;
+    width: 230px;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 1px;
+}
+
+/*End of box2*/
+
+/* start of card6*/
+.card6{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card6 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -100px;
+}
+
+.p6{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;  
+}
+/* End of card6*/
+
+/* Start of card7*/
+.card7{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card7 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p7{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;  
+}
+/* End of card7*/
+
+/*Start of card8*/
+.card8{
+    background-color: pink;
+    max-width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card8 img{
+    width: 240px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.p8{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;  
+}
+/* End of card8*/
+
+/* Section3 End*/
